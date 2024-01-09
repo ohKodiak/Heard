@@ -1,11 +1,12 @@
 import './App.css';
 import React from 'react';
 import Post from './components/Post';
+import Profile from './components/Profile';
 
 function App() {
   return (
     <div className="App">
-      <navbar>
+      {/* <navbar>
         <p>Heard</p>
         <div className="nav-search">
           <input type="text" placeholder="Search" />
@@ -29,7 +30,8 @@ function App() {
         <Post username="Ezra" song="Boogie Wonderland" artist="Earth Sun and Fire" album="Awesome album"/>
 
 
-      </div>
+      </div> */}
+      <Profile />
         
     </div>
   );
