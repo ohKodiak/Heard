@@ -7,19 +7,28 @@ function App() {
     <div className="App">
       <navbar>
         <p>Heard</p>
-        <input type="text" placeholder="Search" />
-        <button>Search</button>
+        <div className="nav-search">
+          <input type="text" placeholder="Search" />
+          <button>Search</button>
+        </div>
+        <div className="nav-btns">
+          <button>Home</button>
+          <button>Profile</button>
+          <button>Settings</button>
+          <button>Logout</button>
+        </div>
       </navbar>
       <div className="posts-heading">
         <p>Today at 4:40pm</p>
       </div>
       <div className="posts">
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
+        <Post username="Ezra" song="Boogie Wonderland" artist="Earth Sun and Fire" album="Awesome album"/>
+        <Post username="Ezra" song="Boogie Wonderland" artist="Earth Sun and Fire" album="Awesome album"/>
+        <Post username="Ezra" song="Boogie Wonderland" artist="Earth Sun and Fire" album="Awesome album"/>
+        <Post username="Ezra" song="Boogie Wonderland" artist="Earth Sun and Fire" album="Awesome album"/>
+        <Post username="Ezra" song="Boogie Wonderland" artist="Earth Sun and Fire" album="Awesome album"/>
+
+
       </div>
         
     </div>

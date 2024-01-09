@@ -4,7 +4,7 @@ p {
 
 .post {
     height: 20vh;
-    width: 97.25vw;
+    width: calc(100% - 2rem);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
