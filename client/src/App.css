@@ -1,0 +1,41 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 0 20px;
+  height: 10vh;
+  font-size: 1.2rem;
+}
+
+.posts-heading {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #535252;
+  color: white;
+  padding: 0 20px;
+  font-size: 1.2rem;
+}
+
+.posts {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 0 20px;
+  font-size: 1.2rem;
+  overflow-y: scroll;
+}
